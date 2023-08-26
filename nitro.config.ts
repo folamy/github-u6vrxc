@@ -2,7 +2,7 @@
 export default defineNitroConfig({
   routeRules: {
     '/*/**': {
-      cors: true,
+      cors: false,
       headers: {
         'access-control-allow-origin': '*',
         // 'access-control-allow-methods': '*',
