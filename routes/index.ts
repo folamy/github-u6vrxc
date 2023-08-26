@@ -1,3 +1,4 @@
 export default eventHandler(() => {
-  return { nitro: 'Is Awesome!' }
-})
+  console.log('trying');
+  return { nitro: 'Is Awesome!' };
+});

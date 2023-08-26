@@ -8,12 +8,12 @@ export default defineNitroConfig({
         'access-control-allow-methods': '*',
       },
     },
-    '/*': {
-      cors: true,
-      headers: {
-        'access-control-allow-origin': '*',
-        'access-control-allow-methods': '*',
-      },
-    },
+    // '/*': {
+    //   cors: true,
+    //   headers: {
+    //     'access-control-allow-origin': '*',
+    //     'access-control-allow-methods': '*',
+    //   },
+    // },
   },
 });
